@@ -1,0 +1,51 @@
+* 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: aliceblue;
+    height: 50px;
+    width: 800px;
+    position: fixed;
+    top: 0;
+}
+
+.content {
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    background-color: beige;
+}
+
+.byline {
+    text-transform: capitalize;
+    text-align: right;
+    margin: 10px;
+    letter-spacing: inherit;
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 25px;
+    display: inline-block;
+    text-shadow: 2px 2px white;
+}
+
+h4 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-style: oblique;
+    font-variant: small-caps;
+    float: right;
+    padding-right: 25px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 10pt;
+    text-indent: 50px;
+    line-height: 150%;
+    text-align: justify;
+    word-spacing: inherit;
