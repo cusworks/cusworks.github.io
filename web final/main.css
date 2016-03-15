@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    
+}
+
+.main-container {
+    width: 1040px;
+    margin: 0 auto 0 auto;
+    background-color: #e0e0e0;
+}
+
+
+header {
+    display: flex;
+    position: relative;
+    background-color: #fafafa;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.branding {
+    background: #fafafa;
+    width:230px;
+    height:45px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.pill-button {
+    display: inline-block;
+    background: gray;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.promo {
+    background: white;
+    color: black;
+    font-size: 18px;
+}
+
+
+.promo-message {
+    width:100%;
+    height: 500px;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(assets/splash.jpeg);
+    background-size: cover;
+}
+.promo-message h1 {
+    margin-top: 100px;
+}
+.promo-message p {
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* Product Features */
+
+.product-features, .product-buy-it-now {
+  display: flex;
+    margin-bottom: 25px;
+}
+.feature-01 h5 {
+}
+.feature {
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.feature p {
+    font-style: italic;
+}
+
+.product-buy-it-now {
+  padding: 20px;
+}
+
+.product-info {
+  text-align: right;
+}
+
+.product-info p {
+    margin-left: 50px;
+}
+
+.product-image {
+    margin-top: 
+}
+
+#product-reviews {
+  background: skyblue;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer-nav {
+    position: relative;
+    height: 35px;
+
+}
+.footer-links {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding-right: 10px;
+}
+    
+.footer-links a {
+    padding-right: 5px;
+    color: white;
+}
+    
+footer {
+    padding-bottom: 25px;
+    background-color: grey;
+    position: relative;
+}
+
+footer p {
+    font-size: 8pt;
+    position: absolute;
+    right: 0px;
+}
+a:hover {
+    color: skyblue;
+}
+
+h1 { 
+    color: white;
+    font-size: 75pt;
+}
+
+h5 {
+    font-size: 
+}
+
+.featurefour {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.featurepic {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.featurecopy {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.featurebox h3, .featurebox p, .featurebox a  {
+   
+    padding-right: 20px;
+}
+
+.feature-splash {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.feature-copy p {
+    text-align: center;
+    padding: 0px 75px 75px 75px;
+}
+
+.container5 {
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.feature-copy2 p {
+    text-align: center;
+    padding: 0px 200px 20px 200px;
+}
+
+.feature-to-pricing a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.price-points {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px 33px 20px 33px;
+}
+
+.price-point {
+    height: 600px;
+    width: 300px;
+    border: solid;
+    border-width: 2px;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.price-points h4 {
+    font-family: serif;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+
+.fifteen {
+    font-weight: 800;
+}
+
+.buynow01 {
+    margin-top: 205px;
+}
+
+.buynow02 {
+    margin-top: 110px;
+}
+
+.buynow03 {
+    margin-top: 35px;
+}
+
+.convinced {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.ourblog a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post {
+    padding: 20px;
+}
+
+.blog01 {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.blog02 {
+    float: left;
+    margin: 0 10px 10px 0px;
+}
